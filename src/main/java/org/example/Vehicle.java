@@ -9,5 +9,5 @@ public class Vehicle {
     double maxSpeed;
     boolean damaged;
     String color;
-
+    int price;
 }
