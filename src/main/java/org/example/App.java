@@ -29,6 +29,13 @@ public class App
 
         carReference.engine = engine1;
 
+        double distanceCar1 = carReference.accelerate(60, 1);
+        double distanceCar2 = car2.accelerate(100, 1);
+        if (distanceCar1 > distanceCar2) {
+            System.out.println("Longest distance " + carReference.name);
+        }   else {
+            System.out.println("Longest distance: " + carReference.name);
+        }
         System.out.println("Engine capacity " + engine1.capacity);
         System.out.println("Car engine capacity " + carReference.engine.capacity);
 
