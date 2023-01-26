@@ -1,6 +1,6 @@
 package org.example;
 
-//"is-a" relationship
+
 public class Vehicle {
     String name;
     double fuelLevel;
